@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* .app {
+  min-height: 100vh;
+  display: grid;
+  background: #ebe9ef;
+  background-image: url('./assets/mesmerizing-view-fresh-green-fields-cloudy-sky.jpg') ;
+  width: 100vh;
+  height: inherit;
+} */
+
+.app {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: grid;
+  place-items: center; /* optional: to center your content */
+  background: url('./assets/mesmerizing-view-fresh-green-fields-cloudy-sky.jpg') no-repeat center center;
+  background-size: cover; /* this makes the image cover entire screen */
+  background-attachment: fixed; /* optional: makes background stay when scrolling */
+}
